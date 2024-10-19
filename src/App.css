@@ -1,0 +1,106 @@
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-board {
+  margin-right: 20px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.h1 {
+  color: white; 
+  font-size: 60px;
+}
+
+.h2 {
+  color: white; 
+}
+
+.buttonHome {
+  background-color: #4CAF50; 
+  color: white;              
+  padding: 10px 20px;       
+  border: none;            
+  border-radius: 5px;       
+  cursor: pointer;           
+  transition: background-color 0.3s; 
+  margin: 10px 15px 20px 25px;
+}
+
+.buttonContinue {
+  background-color: #4CAF50; 
+  color: white;              
+  padding: 10px 20px;       
+  border: none;            
+  border-radius: 5px;       
+  cursor: pointer;           
+  transition: background-color 0.3s; 
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.buttonStop {
+  background-color: #d13b3b ; 
+  color: white;              
+  padding: 10px 20px;       
+  border: none;            
+  border-radius: 5px;       
+  cursor: pointer;           
+  transition: background-color 0.3s; 
+}
+
+.input {
+  width: 10%;               
+  padding: 10px;            
+  border: 1px solid #ccc;  
+  border-radius: 4px;       
+  font-size: 16px;          
+  transition: border-color 0.3s; 
+  margin: 10px 15px 20px 25px;
+}
+
+.input:focus {
+  border-color: #4CAF50;    
+  outline: none;             
+}
+
+.divStyle  {
+  background-color: #0d4e70;
+}
+
+.x {
+  color: blue;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.o {
+  color: red;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.board-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -14,12 +14,12 @@ function Game({ players, endGameSession }) {
 
   const handleClick = (index) => {
     const squaresCopy = [...squares];
-
-    if (calculateWinner(squares) || squaresCopy[index]) return;
+    if (calculateWinner(squares) || squaresCopy[index]){
+      return;
+    } 
     squaresCopy[index] = xIsNext ? 'X' : 'O';
     setSquares(squaresCopy);
     setXIsNext(!xIsNext);
-
   };
 
   const winner = calculateWinner(squares);

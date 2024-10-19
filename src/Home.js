@@ -20,9 +20,9 @@ function Home({ previousGames, startNewGame }) {
       <h2 className='h2'>Previous Games</h2>
       <ul>
         {previousGames.length === 0
-          ? <li>No previous games available</li>
+          ? <li className='li'>No previous games available</li>
           : previousGames.map((game, index) => (
-              <li key={index}>
+              <li className='li' key={index}>
                 {game.player1} vs {game.player2} - Wins: {game.player1Wins}, {game.player2Wins}, Draws: {game.draws}
               </li>
             ))}
